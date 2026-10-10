@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="g" cx="70%" cy="35%" r="75%">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#07060b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="#07060b"/>
+  <rect width="1280" height="720" fill="url(#g)"/>
+  <text x="640" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#c4b5fd" letter-spacing="10">PLACEHOLDER</text>
+  <text x="640" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Admin Toolkit</text>
+  <text x="640" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#a1a1aa">Image 2 of 2: replace with a real screenshot</text>
+</svg>
