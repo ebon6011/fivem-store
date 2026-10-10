@@ -170,7 +170,7 @@ Helper exports: `getProductBySlug(slug)`, `getFeaturedProducts()`.
 
 ## 7. Styling
 
-- `--accent: #8B5CF6` (plus derived `--accent-soft` glow) in `app/globals.css`, exposed to Tailwind as `accent` color. Changing that one line recolors the site.
+- Accent `#8B5CF6` is set once as `site.accent` in `config/site.ts`. The root layout puts it on `<html>` as the `--accent` CSS variable, which `app/globals.css` exposes to Tailwind as the `accent` color; the OG image generator reads the same value. Changing that one line recolors the site and share images. (Revised during planning: OG images can't read CSS.)
 - Background near-black (`#07060b`), text zinc tones.
 - `.glass`: `bg-white/5`, `backdrop-blur`, `border-white/10`, rounded.
 - Fonts via `next/font/google` (Inter for body, Space Grotesk for headings), self-hosted at build.
