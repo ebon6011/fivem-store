@@ -8,7 +8,7 @@ export const site = {
   url: "https://rocky-shop.vercel.app",
   // The neon accent color. Change this one value to recolor the whole site.
   accent: "#8B5CF6",
-  discordUrl: "https://discord.gg/REPLACE_ME",
+  discordUrl: "https://discord.gg/M9HRy95Vh9",
   tebexStoreUrl: "https://YOUR-STORE.tebex.io",
   currency: "USD",
   locale: "en-US",
